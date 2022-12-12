@@ -1,0 +1,9 @@
+<input
+  type="text"
+  class="form-control"
+  id="searchQuery"
+  [(ngModel)]="svcParameters.C"
+  (input)="trainModel()"
+/>
+
+<p>{{svcResult | json}}</p>
